@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E621557204D368C00227C85 /* UIViewController+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E621555204D368B00227C85 /* UIViewController+Dealloc.m */; };
 		846FD20520294F63000229EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FD20420294F63000229EF /* AppDelegate.m */; };
 		846FD20820294F63000229EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FD20720294F63000229EF /* ViewController.m */; };
 		846FD20B20294F63000229EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846FD20920294F63000229EF /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E621555204D368B00227C85 /* UIViewController+Dealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dealloc.m"; sourceTree = "<group>"; };
+		0E621556204D368B00227C85 /* UIViewController+Dealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dealloc.h"; sourceTree = "<group>"; };
 		846FD20020294F63000229EF /* RunLoop初探.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RunLoop初探.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846FD20320294F63000229EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		846FD20420294F63000229EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				846FD20720294F63000229EF /* ViewController.m */,
 				846FD235202950A3000229EF /* TestViewController.h */,
 				846FD236202950A3000229EF /* TestViewController.m */,
+				0E621556204D368B00227C85 /* UIViewController+Dealloc.h */,
+				0E621555204D368B00227C85 /* UIViewController+Dealloc.m */,
 				846FD20920294F63000229EF /* Main.storyboard */,
 				846FD20C20294F64000229EF /* Assets.xcassets */,
 				846FD20E20294F64000229EF /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				846FD20820294F63000229EF /* ViewController.m in Sources */,
 				846FD21320294F64000229EF /* main.m in Sources */,
 				846FD237202950A3000229EF /* TestViewController.m in Sources */,
+				0E621557204D368C00227C85 /* UIViewController+Dealloc.m in Sources */,
 				846FD20520294F63000229EF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
